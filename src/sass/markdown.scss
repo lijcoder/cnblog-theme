@@ -1,0 +1,50 @@
+.cnblogs-markdown {
+    blockquote {
+        margin: 0;
+        padding: 1px 0 1px 10px;
+        border-left: 6px solid #d1d1d1;
+    }
+
+    code {
+        margin: 0;
+        color: $global-font-color !important;
+        font-size: 14px !important;
+        line-height: $global-line-height;
+        background-color: #e8e8e8 !important;
+        border: unset !important;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-size: 22px !important;
+    }
+
+    h3 {
+        font-size: 20 !important;
+    }
+
+    h4 {
+        font-size: 19 !important;
+    }
+
+    h5 {
+        font-size: 18 !important;
+    }
+
+    h6 {
+        font-size: 16 !important;
+    }
+
+    .hljs {
+        color: $global-font-color !important;
+        font-size: 14px !important;
+        background-color: #e4e4e4 !important;
+        border: unset !important;
+    }
+}
+
+@import "code-hljs";
+@import "letax";

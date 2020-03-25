@@ -1,0 +1,28 @@
+#header {
+    #blogTitle {
+        height: 60px;
+        float: left;
+
+        h1 {
+            font-size: 25px;
+            width: auto;
+            margin-left: 20px;
+        }
+    }
+
+    #navigator {
+        display: inline-block;
+        margin-left: 50px;
+        font-size: 16px;
+        padding-top: 14px;
+
+        #navList {
+            display: -webkit-inline-box;
+
+            li {
+                list-style: none;
+                padding: 0 5px;
+            }
+        }
+    }
+}

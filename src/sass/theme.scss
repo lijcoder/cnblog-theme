@@ -1,0 +1,20 @@
+$global-font-family: "Source Sans Pro",
+system-ui,
+-apple-system,
+"Segoe UI",
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !important;
+
+$global-font-color: #6b717f;
+$global-bg-color: #f4f4f4;
+$global-font-size: 14px;
+$global-line-height: 1.8;
+
+@import "base";
+@import "hide";
+@import "home";
+@import "markdown"

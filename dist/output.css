@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: unset;
+  min-height: 100%;
+  height: 100%;
+  font-family: "Source Sans Pro", system-ui, -apple-system, "Segoe UI", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  color: #6b717f;
+  background-color: #f4f4f4;
+  font-size: 14px;
+  line-height: 1.8; }
+
+a {
+  text-decoration: none; }
+  a:link, a:visited, a:active {
+    color: #73439f; }
+  a:hover {
+    color: #0033c2; }
+
+#blog_post_info_block #author_profile,
+#blog_post_info_block #green_channel #green_channel_weibo,
+#blog_post_info_block #green_channel #green_channel_wechat,
+#blogTitle h2,
+#blogTitle #lnkBlogLogo,
+.blogStats,
+.dayTitle,
+#homepage_top_pager,
+.c_ad_block {
+  display: none; }
+
+#home {
+  height: 100%;
+  width: 980px;
+  margin: 0 auto;
+  padding: 0; }
+  #home #header {
+    height: 50px;
+    display: block;
+    border: unset; }
+  #home #main {
+    display: block;
+    margin-top: 20px; }
+  #home #footer {
+    text-align: center;
+    padding: 20px 0 15px 0; }
+
+#header #blogTitle {
+  height: 60px;
+  float: left; }
+  #header #blogTitle h1 {
+    font-size: 25px;
+    width: auto;
+    margin-left: 20px; }
+
+#header #navigator {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 16px;
+  padding-top: 14px; }
+  #header #navigator #navList {
+    display: -webkit-inline-box; }
+    #header #navigator #navList li {
+      list-style: none;
+      padding: 0 5px; }
+
+#main #mainContent {
+  width: 660px;
+  float: left;
+  margin: 0;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #c2c2c2; }
+
+#main #sideBar {
+  width: 260px;
+  float: left;
+  margin: 0;
+  padding-left: 15px;
+  border: unset; }
+
+#sideBar .catListTitle {
+  margin: 0;
+  padding: 10px 0 5px 0px; }
+
+#sideBar ul {
+  margin: 0;
+  padding: 0; }
+  #sideBar ul li {
+    overflow: hidden;
+    padding: 2px 2px 3px 5px;
+    border-bottom: 1px solid #e3e3e3; }
+
+#sideBar #sidebar_toptags li {
+  white-space: nowrap;
+  display: inline-grid;
+  background-color: #e3e3e3;
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin: 2px 2px;
+  text-overflow: ellipsis;
+  height: 20px;
+  line-height: 20px; }
+
+#mainContent .postDesc {
+  padding: 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #cdc7bc;
+  color: #0000ff; }
+
+#mainContent .day .postTitle {
+  font-size: 18px;
+  margin: 20px 0 5px 0; }
+
+#mainContent .post .postTitle {
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+  border-bottom: 1px dashed #cdc7bc; }
+
+#mainContent .post #blog_post_info_block #blog_post_info {
+  margin: 5px 0;
+  height: 70px; }
+  #mainContent .post #blog_post_info_block #blog_post_info #green_channel {
+    border: unset;
+    float: left;
+    width: inherit;
+    padding: 10px 40px 10px 20px; }
+  #mainContent .post #blog_post_info_block #blog_post_info #div_digg {
+    border: unset;
+    float: left !important; }
+
+#mainContent .comment_textarea {
+  background-color: #f4f4f4; }
+  #mainContent .comment_textarea textarea {
+    background-color: #f4f4f4;
+    font-size: 14px;
+    font-size: 14px; }
+
+#mainContent .PostListTitle {
+  font-size: 22px; }
+
+#mainContent .PostList .postTitl2 {
+  font-size: 16px !important; }
+
+#mainContent .PostList .postDesc2 {
+  font-size: 14px !important;
+  border-bottom: 1px dashed #cdc7bc; }
+
+#mainContent .entrylist .entrylistTitle {
+  font-size: 22px; }
+
+#mainContent .entrylist .entrylistItem {
+  margin: 0;
+  padding: 20px 0 5px 0;
+  border-bottom: 1px dashed #cdc7bc; }
+  #mainContent .entrylist .entrylistItem .entrylistPosttitle {
+    font-size: 16px;
+    margin-bottom: 5px; }
+  #mainContent .entrylist .entrylistItem .entrylistItemPostDesc {
+    margin-top: 10px; }
+
+.cnblogs-markdown blockquote {
+  margin: 0;
+  padding: 1px 0 1px 10px;
+  border-left: 6px solid #d1d1d1; }
+
+.cnblogs-markdown code {
+  margin: 0;
+  color: #6b717f !important;
+  font-size: 14px !important;
+  line-height: 1.8;
+  background-color: #e8e8e8 !important;
+  border: unset !important; }
+
+.cnblogs-markdown h1 {
+  font-size: 24px !important; }
+
+.cnblogs-markdown h2 {
+  font-size: 22px !important; }
+
+.cnblogs-markdown h3 {
+  font-size: 20 !important; }
+
+.cnblogs-markdown h4 {
+  font-size: 19 !important; }
+
+.cnblogs-markdown h5 {
+  font-size: 18 !important; }
+
+.cnblogs-markdown h6 {
+  font-size: 16 !important; }
+
+.cnblogs-markdown .hljs {
+  color: #6b717f !important;
+  font-size: 14px !important;
+  background-color: #e4e4e4 !important;
+  border: unset !important; }
+
+.MathJax_Display {
+  text-align: left !important;
+  padding-left: 40px; }

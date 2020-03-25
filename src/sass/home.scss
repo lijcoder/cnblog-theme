@@ -1,0 +1,27 @@
+$header-main-space: 20px;
+
+#home {
+    height: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 0;
+
+    #header {
+        height: 50px;
+        display: block;
+        border: unset;
+    }
+
+    #main {
+        display: block;
+        margin-top: $header-main-space;
+    }
+
+    #footer {
+        text-align: center;
+        padding: 20px 0 15px 0;
+    }
+}
+
+@import "header";
+@import "main";

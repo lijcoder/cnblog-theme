@@ -1,0 +1,88 @@
+#mainContent {
+    .postDesc {
+        padding: 10px 0;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed #cdc7bc;
+        color: #0000ff;
+    }
+
+    .day {
+        .postTitle {
+            font-size: 18px;
+            margin: 20px 0 5px 0;
+        }
+    }
+
+    .post {
+        .postTitle {
+            font-size: 20px;
+            margin: 10px 0 10px 0;
+            border-bottom: 1px dashed #cdc7bc;
+        }
+
+        #blog_post_info_block {
+            #blog_post_info {
+                margin: 5px 0;
+                height: 70px;
+
+                #green_channel {
+                    border: unset;
+                    float: left;
+                    width: inherit;
+                    padding: 10px 40px 10px 20px;
+                }
+
+                #div_digg {
+                    border: unset;
+                    float: left !important;
+                }
+            }
+        }
+    }
+
+    .comment_textarea {
+        background-color: $global-bg-color;
+
+        textarea {
+            background-color: $global-bg-color;
+            font-size: 14px;
+            font-size: 14px;
+        }
+    }
+
+    .PostListTitle {
+        font-size: 22px;
+    }
+
+    .PostList {
+        .postTitl2 {
+            font-size: 16px !important;
+        }
+
+        .postDesc2 {
+            font-size: 14px !important;
+            border-bottom: 1px dashed #cdc7bc;
+        }
+    }
+
+    .entrylist {
+        .entrylistTitle {
+            font-size: 22px;
+        }
+
+        .entrylistItem {
+            margin: 0;
+            padding: 20px 0 5px 0;
+            border-bottom: 1px dashed #cdc7bc;
+
+            .entrylistPosttitle {
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+
+            .entrylistItemPostDesc {
+                margin-top: 10px;
+            }
+        }
+    }
+}

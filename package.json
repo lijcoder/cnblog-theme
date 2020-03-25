@@ -1,0 +1,14 @@
+{
+  "name": "cnblog-theme-simple",
+  "version": "1.0.0",
+  "description": "一个简约的博客园主题",
+  "main": "",
+  "scripts": {
+    "build": "node-sass src/sass/theme.scss dist/output.css"
+  },
+  "author": "LiJie",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

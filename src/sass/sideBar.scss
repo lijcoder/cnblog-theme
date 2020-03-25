@@ -1,0 +1,32 @@
+#sideBar {
+    .catListTitle {
+        margin: 0;
+        padding: 10px 0 5px 0px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            overflow: hidden;
+            padding: 2px 2px 3px 5px;
+            border-bottom: 1px solid #e3e3e3;
+        }
+    }
+
+    #sidebar_toptags {
+        li {
+            white-space: nowrap;
+            display: inline-grid;
+            background-color: #e3e3e3;
+            // border: 1px solid #f4f4f4;
+            border-radius: 4px;
+            padding: 1px 4px;
+            margin: 2px 2px;
+            text-overflow: ellipsis;
+            height: 20px;
+            line-height: 20px;
+        }
+    }
+}
