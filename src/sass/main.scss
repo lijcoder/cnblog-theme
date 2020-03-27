@@ -1,5 +1,5 @@
-$mainContent-width: 660px;
-$sideBar-width: 260px;
+$mainContent-width: 700px;
+$sideBar-width: 200px;
 
 #main {
 
@@ -12,6 +12,7 @@ $sideBar-width: 260px;
     }
 
     #sideBar {
+        font-size: 90%;
         width: $sideBar-width;
         float: left;
         margin: 0;
