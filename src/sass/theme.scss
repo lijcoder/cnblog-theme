@@ -10,9 +10,10 @@ sans-serif,
 "Noto Color Emoji" !important;
 
 $global-font-color: #6b717f;
-$global-bg-color: #f4f4f4;
+$global-bg-color: #ffffff;
 $global-font-size: 14px;
 $global-line-height: 1.8;
+$global-code-bg-color: #eef4f4;
 
 @import "base";
 @import "hide";

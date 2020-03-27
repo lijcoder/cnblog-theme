@@ -1,16 +1,17 @@
 .cnblogs-markdown {
     blockquote {
         margin: 0;
-        padding: 1px 0 1px 10px;
-        border-left: 6px solid #d1d1d1;
+        padding: 0 0 0 10px;
+        border: unset;
+        border-left: 5px solid #d1d1d1;
     }
 
     code {
         margin: 0;
-        color: $global-font-color !important;
-        font-size: 14px !important;
-        line-height: $global-line-height;
-        background-color: #e8e8e8 !important;
+        // color: $global-font-color !important;
+        font-size: 90% !important;
+        line-height: 1.6;
+        background-color: $global-code-bg-color !important;
         border: unset !important;
     }
 
@@ -41,7 +42,7 @@
     .hljs {
         color: $global-font-color !important;
         font-size: 14px !important;
-        background-color: #e4e4e4 !important;
+        background-color: #f2f4f5 !important;
         border: unset !important;
     }
 }

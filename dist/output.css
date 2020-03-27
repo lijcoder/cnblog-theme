@@ -6,7 +6,7 @@ body {
   height: 100%;
   font-family: "Source Sans Pro", system-ui, -apple-system, "Segoe UI", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
   color: #6b717f;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   font-size: 14px;
   line-height: 1.8; }
 
@@ -92,7 +92,7 @@ a {
 #sideBar #sidebar_toptags li {
   white-space: nowrap;
   display: inline-grid;
-  background-color: #e3e3e3;
+  background-color: #eef4f4;
   border-radius: 4px;
   padding: 1px 4px;
   margin: 2px 2px;
@@ -128,9 +128,9 @@ a {
     float: left !important; }
 
 #mainContent .comment_textarea {
-  background-color: #f4f4f4; }
+  background-color: #ffffff; }
   #mainContent .comment_textarea textarea {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     font-size: 14px;
     font-size: 14px; }
 
@@ -159,15 +159,15 @@ a {
 
 .cnblogs-markdown blockquote {
   margin: 0;
-  padding: 1px 0 1px 10px;
-  border-left: 6px solid #d1d1d1; }
+  padding: 0 0 0 10px;
+  border: unset;
+  border-left: 5px solid #d1d1d1; }
 
 .cnblogs-markdown code {
   margin: 0;
-  color: #6b717f !important;
-  font-size: 14px !important;
-  line-height: 1.8;
-  background-color: #e8e8e8 !important;
+  font-size: 90% !important;
+  line-height: 1.6;
+  background-color: #eef4f4 !important;
   border: unset !important; }
 
 .cnblogs-markdown h1 {
@@ -191,7 +191,7 @@ a {
 .cnblogs-markdown .hljs {
   color: #6b717f !important;
   font-size: 14px !important;
-  background-color: #e4e4e4 !important;
+  background-color: #f2f4f5 !important;
   border: unset !important; }
 
 .MathJax_Display {
