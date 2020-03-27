@@ -8,7 +8,7 @@
 
     code {
         margin: 0;
-        // color: $global-font-color !important;
+        color: #000000;
         font-size: 90% !important;
         line-height: 1.6;
         background-color: $global-code-bg-color !important;
@@ -40,7 +40,7 @@
     }
 
     .hljs {
-        color: $global-font-color !important;
+        color: #000000;
         font-size: 14px !important;
         background-color: #f6f8fa !important;
         border: unset !important;

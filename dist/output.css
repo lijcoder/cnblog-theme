@@ -166,6 +166,7 @@ a {
 
 .cnblogs-markdown code {
   margin: 0;
+  color: #000000;
   font-size: 90% !important;
   line-height: 1.6;
   background-color: #eef4f4 !important;
@@ -190,7 +191,7 @@ a {
   font-size: 16 !important; }
 
 .cnblogs-markdown .hljs {
-  color: #6b717f !important;
+  color: #000000;
   font-size: 14px !important;
   background-color: #f6f8fa !important;
   border: unset !important; }
