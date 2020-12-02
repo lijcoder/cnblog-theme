@@ -11,5 +11,24 @@ function addNav(title, url) {
     navUl.insertBefore(navLi, originLi);
 }
 
+/**
+ * 当前页面是否为博文内容页。
+ */
+function isPostPage() {
+    return $('#topics').length > 0;
+}
+
+/**
+ * 显示左侧边栏。
+ */
+function showSidebar() {
+    $('#mainContent').css({ width: '902px' });
+    $('#sideBar').hide();
+}
+
 addNav("首页", "https://www.cnblogs.com/newber/");
 addNav("GitHub", "http://baidu.com");
+
+if(isPostPage()) {
+    showSidebar();
+}

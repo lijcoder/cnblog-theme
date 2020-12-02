@@ -2,14 +2,19 @@
     .postDesc {
         padding: 10px 0;
         margin-bottom: 20px;
-        border-bottom: 1px dashed #cdc7bc;
+        border-bottom: 1px solid #e6e6e6;
         color: #0000ff;
+        font-size: 14px;
     }
 
     .day {
         .postTitle {
             font-size: 18px;
             margin: 20px 0 5px 0;
+        }
+        .postCon {
+            line-height: 1.6;
+            font-size: 14px;
         }
     }
 
@@ -42,12 +47,17 @@
 
     .comment_textarea {
         background-color: $global-bg-color;
+        width: auto;
 
         textarea {
             background-color: $global-bg-color;
             font-size: 14px;
             font-size: 14px;
         }
+    }
+    
+    #ad_t2, #under_post_news {
+        display: none;
     }
 
     .PostListTitle {

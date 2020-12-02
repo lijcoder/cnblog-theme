@@ -4,11 +4,11 @@ body {
   border: unset;
   min-height: 100%;
   height: 100%;
-  font-family: "Source Sans Pro", system-ui, -apple-system, "Segoe UI", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-  color: #6b717f;
+  font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #585858;
   background-color: #ffffff;
-  font-size: 14px;
-  line-height: 1.8; }
+  font-size: 16px;
+  line-height: 1.7; }
 
 a {
   text-decoration: none; }
@@ -42,7 +42,8 @@ a {
     margin-top: 20px; }
   #home #footer {
     text-align: center;
-    padding: 20px 0 15px 0; }
+    padding: 20px 0 15px 0;
+    font-size: 14px !important; }
 
 #header #blogTitle {
   height: 60px;
@@ -68,10 +69,10 @@ a {
   float: left;
   margin: 0;
   padding: 20px;
-  box-shadow: 0px 0px 5px #c3c3c3; }
+  border: solid thin #e6e6e6; }
 
 #main #sideBar {
-  font-size: 90%;
+  font-size: 85%;
   width: 200px;
   float: left;
   margin: 0;
@@ -104,12 +105,17 @@ a {
 #mainContent .postDesc {
   padding: 10px 0;
   margin-bottom: 20px;
-  border-bottom: 1px dashed #cdc7bc;
-  color: #0000ff; }
+  border-bottom: 1px solid #e6e6e6;
+  color: #0000ff;
+  font-size: 14px; }
 
 #mainContent .day .postTitle {
   font-size: 18px;
   margin: 20px 0 5px 0; }
+
+#mainContent .day .postCon {
+  line-height: 1.6;
+  font-size: 14px; }
 
 #mainContent .post .postTitle {
   font-size: 20px;
@@ -129,11 +135,15 @@ a {
     float: left !important; }
 
 #mainContent .comment_textarea {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  width: auto; }
   #mainContent .comment_textarea textarea {
     background-color: #ffffff;
     font-size: 14px;
     font-size: 14px; }
+
+#mainContent #ad_t2, #mainContent #under_post_news {
+  display: none; }
 
 #mainContent .PostListTitle {
   font-size: 22px; }
@@ -165,7 +175,7 @@ a {
   border-left: 5px solid #d1d1d1; }
 
 .cnblogs-markdown code {
-  margin: 0;
+  margin: 0 4px;
   color: #000000;
   font-size: 90% !important;
   line-height: 1.6;
@@ -191,10 +201,11 @@ a {
   font-size: 16 !important; }
 
 .cnblogs-markdown .hljs {
-  color: #000000;
+  color: #292929;
   font-size: 14px !important;
   background-color: #f6f8fa !important;
-  border: unset !important; }
+  border: unset !important;
+  padding: 15px !important; }
 
 .MathJax_Display {
   text-align: left !important;

@@ -8,11 +8,12 @@ $sideBar-width: 200px;
         float: left;
         margin: 0;
         padding: 20px;
-        box-shadow: 0px 0px 5px #c3c3c3;
+        // box-shadow: 0px 0px 5px #c3c3c3;
+        border: solid thin #e6e6e6;
     }
 
     #sideBar {
-        font-size: 90%;
+        font-size: 85%;
         width: $sideBar-width;
         float: left;
         margin: 0;
