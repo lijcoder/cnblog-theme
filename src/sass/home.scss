@@ -1,8 +1,9 @@
+$home-width: 960px;
 $header-main-space: 20px;
 
 #home {
     height: 100%;
-    width: 980px;
+    width: $home-width;
     margin: 0 auto;
     padding: 0;
 
@@ -20,9 +21,11 @@ $header-main-space: 20px;
     #footer {
         text-align: center;
         padding: 20px 0 15px 0;
-        font-size: 14px !important;
+        font-size: 13px !important;
+        color: #ababab;
     }
 }
 
 @import "header";
 @import "main";
+@import "loading"

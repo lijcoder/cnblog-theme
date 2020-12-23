@@ -8,15 +8,16 @@ body {
   color: #585858;
   background-color: #ffffff;
   font-size: 16px;
-  line-height: 1.7; }
+  line-height: 1.75; }
 
 a {
   text-decoration: none; }
   a:link, a:visited, a:active {
-    color: #73439f; }
+    color: #0366d6; }
   a:hover {
-    color: #0033c2; }
+    text-decoration: underline; }
 
+#top_nav,
 #blog_post_info_block #author_profile,
 #blog_post_info_block #green_channel #green_channel_weibo,
 #blog_post_info_block #green_channel #green_channel_wechat,
@@ -30,7 +31,7 @@ a {
 
 #home {
   height: 100%;
-  width: 980px;
+  width: 960px;
   margin: 0 auto;
   padding: 0; }
   #home #header {
@@ -43,7 +44,8 @@ a {
   #home #footer {
     text-align: center;
     padding: 20px 0 15px 0;
-    font-size: 14px !important; }
+    font-size: 13px !important;
+    color: #ababab; }
 
 #header #blogTitle {
   height: 60px;
@@ -62,14 +64,16 @@ a {
     display: -webkit-inline-box; }
     #header #navigator #navList li {
       list-style: none;
-      padding: 0 5px; }
+      padding: 0 10px; }
 
 #main #mainContent {
+  background-color: #ffffff;
   width: 700px;
   float: left;
   margin: 0;
   padding: 20px;
-  border: solid thin #e6e6e6; }
+  border: solid thin #e6e6e6;
+  box-sizing: border-box; }
 
 #main #sideBar {
   font-size: 85%;
@@ -168,40 +172,115 @@ a {
   #mainContent .entrylist .entrylistItem .entrylistItemPostDesc {
     margin-top: 10px; }
 
+#mainContent #MySignature {
+  display: none;
+  padding: 12px 24px 12px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  background-color: #f6f8fa;
+  position: relative;
+  border-radius: 4px;
+  border-left: 4px solid #42b923; }
+  #mainContent #MySignature p {
+    display: table-row; }
+
+.load-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; }
+  .load-container .boxLoading {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+    .load-container .boxLoading:before {
+      content: "";
+      width: 50px;
+      height: 5px;
+      background: #000;
+      opacity: 0.1;
+      position: absolute;
+      top: 59px;
+      left: 0;
+      border-radius: 50%;
+      animation: shadow 0.5s linear infinite; }
+    .load-container .boxLoading:after {
+      content: "";
+      width: 50px;
+      height: 50px;
+      background: #00adb5;
+      animation: animate 0.5s linear infinite;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 3px; }
+
+@keyframes animate {
+  17% {
+    border-bottom-right-radius: 3px; }
+  25% {
+    transform: translateY(9px) rotate(22.5deg); }
+  50% {
+    transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+    border-bottom-right-radius: 40px; }
+  75% {
+    transform: translateY(9px) rotate(67.5deg); }
+  100% {
+    transform: translateY(0) rotate(90deg); } }
+
+@keyframes shadow {
+  0%,
+  100% {
+    transform: scale(1, 1); }
+  50% {
+    transform: scale(1.2, 1); } }
+
+.cnblogs-markdown h1 {
+  font-size: 22px !important; }
+
+.cnblogs-markdown h2 {
+  font-size: 20px !important; }
+
+.cnblogs-markdown h3 {
+  font-size: 18 !important; }
+
+.cnblogs-markdown h4 {
+  font-size: 16 !important; }
+
+.cnblogs-markdown h5 {
+  font-size: 16 !important; }
+
+.cnblogs-markdown h6 {
+  font-size: 14 !important; }
+
+.cnblogs-markdown ul li {
+  list-style-type: disc !important; }
+
 .cnblogs-markdown blockquote {
-  margin: 0;
-  padding: 0 0 0 10px;
+  margin: 15px 0;
+  padding: 1px 15px;
   border: unset;
-  border-left: 5px solid #d1d1d1; }
+  border-radius: 4px;
+  border-left: 4px solid #d4d4d4;
+  background-color: #f6f8fa; }
 
 .cnblogs-markdown code {
   margin: 0 4px;
-  color: #000000;
+  color: #24292e;
   font-size: 90% !important;
   line-height: 1.6;
   background-color: #eef4f4 !important;
-  border: unset !important; }
-
-.cnblogs-markdown h1 {
-  font-size: 24px !important; }
-
-.cnblogs-markdown h2 {
-  font-size: 22px !important; }
-
-.cnblogs-markdown h3 {
-  font-size: 20 !important; }
-
-.cnblogs-markdown h4 {
-  font-size: 19 !important; }
-
-.cnblogs-markdown h5 {
-  font-size: 18 !important; }
-
-.cnblogs-markdown h6 {
-  font-size: 16 !important; }
+  border: unset !important;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important; }
 
 .cnblogs-markdown .hljs {
-  color: #292929;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
+  color: #24292e;
   font-size: 14px !important;
   background-color: #f6f8fa !important;
   border: unset !important;

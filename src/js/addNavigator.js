@@ -22,7 +22,7 @@ function isPostPage() {
  * 显示左侧边栏。
  */
 function showSidebar() {
-    $('#mainContent').css({ width: '902px' });
+    $('#mainContent').css({ width: '100%' });
     $('#sideBar').hide();
 }
 
@@ -32,3 +32,6 @@ addNav("GitHub", "http://baidu.com");
 if(isPostPage()) {
     showSidebar();
 }
+
+$('.load-containe').show();
+$('.load-containe').fadeOut();

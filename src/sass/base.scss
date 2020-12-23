@@ -17,10 +17,22 @@ a {
     &:link,
     &:visited,
     &:active {
-        color: #73439f;
+        color: #0366d6;
     }
 
     &:hover {
-        color: #0033c2;
+        // color: #73439f;
+        text-decoration: underline;
     }
 }
+
+// ::-webkit-scrollbar {
+//     width: 3px;
+//   }
+  
+//   ::-webkit-scrollbar-thumb {
+//     background-color: #596172;
+//     &:hover {
+//       background-color: #0366d6;
+//     }  
+// }

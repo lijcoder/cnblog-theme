@@ -1,50 +1,73 @@
 .cnblogs-markdown {
+
+    h1 {
+        font-size: 22px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    h3 {
+        font-size: 18 !important;
+    }
+
+    h4 {
+        font-size: 16 !important;
+    }
+
+    h5 {
+        font-size: 16 !important;
+    }
+
+    h6 {
+        font-size: 14 !important;
+    }
+
+    ul li {
+        list-style-type: disc !important;
+        
+    }
+
+
+    // 引用
     blockquote {
-        margin: 0;
-        padding: 0 0 0 10px;
+        margin: 15px 0;
+        padding: 1px 15px;
         border: unset;
-        border-left: 5px solid #d1d1d1;
+        border-radius: 4px;
+        border-left: 4px solid #d4d4d4;
+        background-color: #f6f8fa;
     }
 
     code {
         margin: 0 4px;
-        color: #000000;
+        color: #24292e;
         font-size: 90% !important;
         line-height: 1.6;
         background-color: $global-code-bg-color !important;
         border: unset !important;
-    }
-
-    h1 {
-        font-size: 24px !important;
-    }
-
-    h2 {
-        font-size: 22px !important;
-    }
-
-    h3 {
-        font-size: 20 !important;
-    }
-
-    h4 {
-        font-size: 19 !important;
-    }
-
-    h5 {
-        font-size: 18 !important;
-    }
-
-    h6 {
-        font-size: 16 !important;
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
     }
 
     .hljs {
-        color: #292929;
+        font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace !important;
+        color: #24292e;
         font-size: 14px !important;
         background-color: #f6f8fa !important;
         border: unset !important;
         padding: 15px !important;
+
+        // ::-webkit-scrollbar {
+        //     width: 3px;
+        //   }
+          
+        //   ::-webkit-scrollbar-thumb {
+        //     background-color: #596172;
+        //     &:hover {
+        //       background-color: #0366d6;
+        //     }  
+        // }
     }
 }
 

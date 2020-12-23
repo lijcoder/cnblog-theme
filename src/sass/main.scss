@@ -4,12 +4,13 @@ $sideBar-width: 200px;
 #main {
 
     #mainContent {
+        background-color: $global-content-bg-color;
         width: $mainContent-width;
         float: left;
         margin: 0;
         padding: 20px;
-        // box-shadow: 0px 0px 5px #c3c3c3;
         border: solid thin #e6e6e6;
+        box-sizing: border-box;
     }
 
     #sideBar {

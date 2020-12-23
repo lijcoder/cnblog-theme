@@ -95,4 +95,19 @@
             }
         }
     }
+
+    #MySignature {
+        display: none;
+        padding: 12px 24px 12px 20px;
+        margin-top: 15px;
+        font-size: 16px;
+        background-color: #f6f8fa;
+        position: relative;
+        border-radius: 4px;
+        border-left: 4px solid #42b923;
+
+        p {
+            display: table-row;
+        }
+    }
 }
